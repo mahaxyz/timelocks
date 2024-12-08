@@ -4,15 +4,15 @@ This repo keeps track of all the various timelock contracts deployed across vari
 
 Each timelock is set for 3 days and has the following permissions enabled.
 
-| Role      | Address                                                                                     | Description                 |
-| --------- | ------------------------------------------------------------------------------------------- | --------------------------- |
-| Proposer  | Gnosis Multisig                                                                             | The 3/5 team multisig       |
-| Proposer  | Governor Contract (TBD)                                                                     | The DAO Governance contract |
-| Proposer  | [0x84E0.....011CD](https://etherscan.io/address/0x84E0E243bF4D297C63740E284e2977836AC011CD) | Cold wallet                 |
-| Executor  | Gnosis Multisig                                                                             | The 3/5 team multisig       |
-| Executor  | [0x84E0.....011CD](https://etherscan.io/address/0x84E0E243bF4D297C63740E284e2977836AC011CD) | Cold wallet                 |
-| Canceller | Gnosis Multisig                                                                             | The 3/5 team multisig       |
-| Canceller | [0x84E0.....011CD](https://etherscan.io/address/0x84E0E243bF4D297C63740E284e2977836AC011CD) | Cold wallet                 |
+| Role      | Address                                                                                                        | Description                 |
+| --------- | -------------------------------------------------------------------------------------------------------------- | --------------------------- |
+| Proposer  | [0x7202.....a2469](https://app.safe.global/settings/setup?safe=eth:0x7202136d70026DA33628dD3f3eFccb43F62a2469) | The 3/5 team multisig       |
+| Proposer  | Governor Contract (TBD)                                                                                        | The DAO Governance contract |
+| Proposer  | [0x84E0.....011CD](https://etherscan.io/address/0x84E0E243bF4D297C63740E284e2977836AC011CD)                    | Cold wallet                 |
+| Executor  | [0x7202.....a2469](https://app.safe.global/settings/setup?safe=eth:0x7202136d70026DA33628dD3f3eFccb43F62a2469) | The 3/5 team multisig       |
+| Executor  | [0x84E0.....011CD](https://etherscan.io/address/0x84E0E243bF4D297C63740E284e2977836AC011CD)                    | Cold wallet                 |
+| Canceller | [0x7202.....a2469](https://app.safe.global/settings/setup?safe=eth:0x7202136d70026DA33628dD3f3eFccb43F62a2469) | The 3/5 team multisig       |
+| Canceller | [0x84E0.....011CD](https://etherscan.io/address/0x84E0E243bF4D297C63740E284e2977836AC011CD)                    | Cold wallet                 |
 
 The deployed addresses for the various timelocks can be found here.
 
