@@ -48,7 +48,11 @@ const config: HardhatUserConfig = {
     forceTerminalOutputFormat: 'terminal',
   },
   dependencyCompiler: {
-    paths: ['@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol'],
+    paths: [
+      '@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol',
+      '@mahaxyz/contracts/contracts/core/psm/PegStabilityModuleYield.sol',
+      '@openzeppelin/contracts/interfaces/IERC20.sol',
+    ],
   },
   typechain: {
     outDir: 'types',
@@ -65,9 +69,9 @@ const config: HardhatUserConfig = {
   },
   networks: {
     hardhat: {
-      // forking: {
-      //   url: `https://rpc.ankr.com/eth`,
-      // },
+      forking: {
+        url: `https://rpc.ankr.com/eth`,
+      },
       accounts: defaultAccount.map((pk) => ({
         balance: '1000000000000000000000000',
         privateKey: pk,

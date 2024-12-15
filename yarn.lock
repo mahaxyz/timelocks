@@ -864,6 +864,11 @@
   resolved "https://registry.yarnpkg.com/@ledgerhq/logs/-/logs-6.12.0.tgz#ad903528bf3687a44da435d7b2479d724d374f5d"
   integrity sha512-ExDoj1QV5eC6TEbMdLUMMk9cfvNKhhv5gXol4SmULRVCx/3iyCPhJ74nsb3S0Vb+/f+XujBEj3vQn5+cwS0fNA==
 
+"@mahaxyz/contracts@^1.18.0":
+  version "1.18.0"
+  resolved "https://registry.yarnpkg.com/@mahaxyz/contracts/-/contracts-1.18.0.tgz#e2899294d90dbc18368809326ba3ca0fd0bcf2a3"
+  integrity sha512-gBHJvr5BnE98mk86GnXoEYg56E2Ai3Fcg+ge5ptdsNQMG95cWF5Kj3G7HRmMOrZ/At8eYJWnS+1weugzHgiYBg==
+
 "@metamask/eth-sig-util@^4.0.0":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@metamask/eth-sig-util/-/eth-sig-util-4.0.1.tgz#3ad61f6ea9ad73ba5b19db780d40d9aae5157088"
