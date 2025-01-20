@@ -6,7 +6,10 @@ export const getTimelock = async (
   address?: string | Addressable
 ) => {
   if (!address) address = (await hre.deployments.get('MAHATimelockController')).address;
-  return await hre.ethers.getContractAt('MAHATimelockController', address);
+  return await hre.ethers.getContractAt(
+    'contracts/MAHATimelockController.sol:MAHATimelockController',
+    address
+  );
 };
 
 export const prepareTimelockData = async (
