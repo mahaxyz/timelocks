@@ -1,3 +1,19 @@
+/**
+  Script to audit the timelock for the given network.
+
+  npx hardhat audit-timelock --network arbitrum
+  npx hardhat audit-timelock --network base
+  npx hardhat audit-timelock --network blast
+  npx hardhat audit-timelock --network bsc
+  npx hardhat audit-timelock --network linea
+  npx hardhat audit-timelock --network mainnet
+  npx hardhat audit-timelock --network optimism
+  npx hardhat audit-timelock --network scroll
+  npx hardhat audit-timelock --network sonic
+  npx hardhat audit-timelock --network unichain
+  npx hardhat audit-timelock --network xlayer
+ */
+
 import { AccessControlEnumerable } from '../types';
 import { HardhatRuntimeEnvironment } from 'hardhat/types';
 import { prepareTimelockData } from '../scripts/prepare-timelock';

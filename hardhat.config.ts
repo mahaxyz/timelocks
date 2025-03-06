@@ -79,6 +79,8 @@ const config: HardhatUserConfig = {
     },
     arbitrum: _network('https://arb1.arbitrum.io/rpc'),
     base: _network('https://mainnet.base.org'),
+    sonic: _network('https://rpc.soniclabs.com'),
+    unichain: _network('https://mainnet.unichain.org'),
     bsc: _network('https://bsc-dataseed1.bnbchain.org'),
     blast: _network('https://rpc.blast.io'),
     linea: _network('https://rpc.linea.build'),
